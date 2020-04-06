@@ -21,6 +21,6 @@ html {
   color: #fff;
 }
 
-.error-message:first-child, input:invalid + .error-message, input:invalid + label + .error-message, .is-validated input:invalid + label + .error-message, .is-validated:invalid + .error-message, .is-validated:invalid + label + .error-message {
+.is-validated > .error-message:first-child, .is-validated input:invalid + .error-message, .is-validated input:invalid + label + .error-message, .is-validated:invalid + .error-message, .is-validated:invalid + label + .error-message {
   display: block;
 }
